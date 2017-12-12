@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Clock</title>
+  <title>JS-Clock</title>
 
   <script type="text/javascript">
   var myalarm;
@@ -62,30 +62,19 @@
 
   <link rel="stylesheet" href="style.css">
 
-  <style>
-  body,h1 {font-family: "Raleway", sans-serif}
-  body, html {height: 100%}
-  .bgimg {
-      background-image: url('forestbridge.jpg');
-      min-height: 100%;
-      background-position: center;
-      background-size: cover;
-  }
-  </style>
-
 </head>
 
 <body onload="startTime()">
 
-  <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="bgimg">
 
-    <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    Clock
+    <div class="display-topleft">
+    JS-Clock
     </div>
 
-    <div class="w3-display-middle">
+    <div class="display-middle">
 
-      <h1 class="w3-jumbo w3-animate-top" id="txt"></h1>
+      <h1 class="clock" id="txt"></h1>
 
       <hr class="w3-border-grey" style="margin:auto;width:40%">
       <br>
